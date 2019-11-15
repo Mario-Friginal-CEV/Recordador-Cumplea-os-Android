@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectImage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp">
+
+        <ImageButton
+            android:id="@+id/image1"
+            android:layout_width="175dp"
+            android:layout_height="125dp"
+            android:layout_margin="15dp"/>
+
+        <ImageButton
+            android:id="@+id/image2"
+            android:layout_width="175dp"
+            android:layout_height="125dp"
+            android:layout_margin="15dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="220dp">
+
+        <ImageButton
+            android:id="@+id/image3"
+            android:layout_width="175dp"
+            android:layout_height="125dp"
+            android:layout_margin="15dp"/>
+
+        <ImageButton
+            android:id="@+id/image4"
+            android:layout_width="175dp"
+            android:layout_height="125dp"
+            android:layout_margin="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="100dp">
+
+        <ImageButton
+            android:id="@+id/image5"
+            android:layout_width="175dp"
+            android:layout_height="125dp"
+            android:layout_margin="15dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

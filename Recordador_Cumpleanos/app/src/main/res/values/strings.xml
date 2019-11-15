@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Recordador de Cumpleaños</string>
+    <string-array name="screens">
+        <item>Añadir cumpleaños</item>
+        <item>Todos los cumpleaños</item>
+        <item>Cumpleaños más cercano</item>
+    </string-array>
+    <string name="abrir_menu">Abrir menú</string>
+    <string name="cerrar_menu">Cerrar menú</string>
+</resources>
